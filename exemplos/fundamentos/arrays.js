@@ -1,16 +1,16 @@
-const valores = [7.7, 8.9, 6.3, 9.2]
-console.log(valores[0], valores[3])
-console.log(valores[4])
+const xcccc = [7.7, 8.9, 6.3, 9.2]
+console.log(xcccc[0], xcccc[3])
+console.log(xcccc[4])
 
-valores[4] = 10
-console.log(valores)
-console.log(valores.length)
+xcccc[4] = 10
+console.log(xcccc)
+console.log(xcccc.length)
 
-valores.push({id: 3}, false, null, 'teste')
-console.log(valores)
+xcccc.push({id: 3}, false, null, 'teste')
+console.log(xcccc)
 
-console.log(valores.pop())
-delete valores[0]
-console.log(valores)
+console.log(xcccc.pop())
+delete xcccc[0]
+console.log(xcccc)
 
-console.log(typeof valores)
+console.log(typeof xcccc)
